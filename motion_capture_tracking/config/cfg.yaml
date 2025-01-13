@@ -1,9 +1,9 @@
 /motion_capture_tracking:
   ros__parameters:
     # one of "optitrack", "optitrack_closed_source", "vicon", "qualisys", "nokov", "vrpn", "motionanalysis"
-    type: "optitrack"
+    type: "vicon"
     # Specify the hostname or IP of the computer running the motion capture software
-    hostname: "130.149.82.37"
+    hostname: "10.0.0.1"
 
     # The information will always be broadcasted via tf2
     # Specify additional settings for the /poses topic here
