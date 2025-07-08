@@ -54,11 +54,3 @@
         max_pitch: 1.4 #rad
         max_fitness_score: 0.001
 
-    # Define your rigid bodies to track with known initial position guess, name of the marker and name of the dynamics
-    # from the above settings.
-    rigid_bodies:
-      crazyflie:
-        initial_position: [0,0,0]
-        marker: "default"
-        # marker: "default_single_marker"
-        dynamics: "default"
