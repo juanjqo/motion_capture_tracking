@@ -8,14 +8,14 @@
     # The information will always be broadcasted via tf2
     # Specify additional settings for the /poses topic here
     topics:
-      frame_id: "mocap"
+      frame_id: "world"
       poses:
         qos:
           mode: "none" # one of "none" or "sensor"
           deadline: 100.0 # Hz
       tf:
-        reference_frame: "mocap"
-        child_frame_fmt: "%s_mocap"
+        reference_frame: "world"
+        child_frame_fmt: "%s_world"
 
     # If desired, log the pointcloud to a binary log file for analysis with libRigidBodyTracker
     # Use "" to disable.
