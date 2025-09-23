@@ -3,7 +3,7 @@
     # one of "optitrack", "optitrack_closed_source", "vicon", "qualisys", "nokov", "vrpn", "motionanalysis"
     type: "vicon"
     # Specify the hostname or IP of the computer running the motion capture software
-    hostname: "10.0.0.1"
+    hostname: "10.0.0.6"
 
     # The information will always be broadcasted via tf2
     # Specify additional settings for the /poses topic here
