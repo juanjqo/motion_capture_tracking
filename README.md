@@ -1,5 +1,18 @@
 [![ROS2](https://github.com/IMRCLab/motion_capture_tracking/actions/workflows/ROS.yml/badge.svg?branch=ros2)](https://github.com/IMRCLab/motion_capture_tracking/actions/workflows/ROS.yml)
 
+# How to run the VICON system in RAICo1 
+
+> [!TIP]
+> Check the [wiki](https://github.com/Adorno-Lab/motion_capture_tracking/wiki) for more details.
+
+```shell
+mkdir -p ~/git && cd ~/git && git clone -b ros2 https://github.com/Adorno-Lab/motion_capture_tracking --recursive
+cd ~/git/motion_capture_tracking/devel
+xhost +local:root
+docker compose up --build
+```
+
+
 # motion_capture_tracking
 
 This repository is a ROS 2 package that can receive data from various motion capture systems:
