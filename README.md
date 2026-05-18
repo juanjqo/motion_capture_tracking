@@ -6,7 +6,7 @@
 > Check the [wiki](https://github.com/Adorno-Lab/motion_capture_tracking/wiki) for more details.
 
 ```shell
-mkdir -p ~/git && cd ~/git && git clone -b ros2 https://github.com/Adorno-Lab/motion_capture_tracking --recursive
+mkdir -p ~/git && cd ~/git && git clone -b ros2 https://github.com/Adorno-Lab/motion_capture_tracking 
 cd ~/git/motion_capture_tracking/devel/vicon_demo
 xhost +local:root
 docker compose up --build
