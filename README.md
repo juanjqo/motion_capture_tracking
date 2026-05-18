@@ -7,7 +7,7 @@
 
 ```shell
 mkdir -p ~/git && cd ~/git && git clone -b ros2 https://github.com/Adorno-Lab/motion_capture_tracking --recursive
-cd ~/git/motion_capture_tracking/devel
+cd ~/git/motion_capture_tracking/devel/vicon_demo
 xhost +local:root
 docker compose up --build
 ```
